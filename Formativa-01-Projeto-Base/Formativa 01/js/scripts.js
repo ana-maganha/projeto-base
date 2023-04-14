@@ -117,18 +117,6 @@ function validarDados() {
         frmRegistro.inProd.focus()
         return false;
     }
-    if (quantidade.trim().length < 5) {
-        erro.innerHTML='O campo quantidade deve conter pelo menos 5 caracteres!';
-        erro.style.display='block';
-        frmRegistro.inQtd.focus()
-        return false;
-    }
-    if (valorUnitario.trim().length < 5) {
-        erro.innerHTML='O campo valor unitário deve conter pelo menos 5 caracteres!';
-        erro.style.display='block';
-        frmRegistro.inVal.focus()
-        return false;
-    }
 
 }
 
